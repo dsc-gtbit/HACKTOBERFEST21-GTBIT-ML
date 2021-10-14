@@ -1,9 +1,12 @@
 #get a list from the user
-#print the last element in the list(Done)
-#you can use any method you are comfortable with 
+#print the last element in the list
+#you can use any method you are comfortable with
 
-def fetch_last_item(items):
-  return items[-1]
+l1= []
+list_size = int(input("Enter the number of elements to be added in the list"))
+for i in range(list_size):
+    ele = input ("Enter element")
+    l1.append (ele)
 
-print(fetch_last_item([4, 6, 2, 8, 3]))
-print(fetch_last_item(["apple", "orange", "guava", "mango"]))
+print("The last item is", l1[-1])
+
