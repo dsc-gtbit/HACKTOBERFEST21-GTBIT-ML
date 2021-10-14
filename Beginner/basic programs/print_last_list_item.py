@@ -9,4 +9,4 @@ for i in range(list_size):
     l1.append (ele)
 
 print("The last item is", l1[-1])
-    
+
