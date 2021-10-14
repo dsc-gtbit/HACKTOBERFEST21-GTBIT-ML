@@ -11,8 +11,9 @@ To begin, the following steps should be followed:-
 2. Fork and clone the repository
 3. Create a new branch: git checkout -b my-branch-name
 4. Add a file with your name in the contributions folder telling about your contributions and also link that file in the readme
-5. Push to your fork and submit a pull request
-6. Pat your self on the back and wait for your pull request to be reviewed and merged..
+5. Add a reference of your issue by adding # folowed by your issue no. that has been assigned to you. for ex :  code for #10 will give reference about the issue no. 10 in your PR's commit message.
+6. Push to your fork and submit a pull request
+7. Pat your self on the back and wait for your pull request to be reviewed and merged..
 
 ## Resources
 
