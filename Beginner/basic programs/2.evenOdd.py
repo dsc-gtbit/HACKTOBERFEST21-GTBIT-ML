@@ -1,8 +1,7 @@
-def Even_odd():
-  num = int(input("Enter the Number: "))
-  if (num%2 ==0):
-      print("The Numeber is Even")
-  else:
-      print("The Numeber is Odd")
+def isEven(n):
+  if num % 2 == 0:
+      return True
+  return False
 
-Even_odd()
+num = int(input("Enter the Number: "))
+print("The number is " + "EVEN" if isEven(num) else "ODD")
